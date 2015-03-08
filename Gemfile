@@ -23,7 +23,10 @@ group :development, :test do
   gem 'capybara'
   gem 'launchy'
   gem 'web-console', '~> 2.0'
+  gem 'quiet_assets'
+  gem 'better_errors'
   gem 'spring'
+  gem 'factory_girl_rails'
 end
 
 group :test do
