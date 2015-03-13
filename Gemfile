@@ -6,14 +6,18 @@ gem 'pg'
 gem 'sass-rails', '~> 4.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 3.0'
+gem 'jquery-easing-rails'
 gem 'font-awesome-rails'
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'shoppe', '~> 1.0'
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
+gem 'heroku-deflater', group: :production
+gem 'therubyracer'
 
 group :development, :test do
   gem 'byebug'
