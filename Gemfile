@@ -12,10 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'shoppe', '~> 1.0'
-
-group :production do
-  gem 'rails_12factor'
-end
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'byebug'
@@ -26,10 +23,6 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'better_errors'
   gem 'spring'
-  gem 'factory_girl_rails'
-end
-
-group :test do
   gem 'factory_girl_rails'
   gem 'shoulda-matchers'
 end
