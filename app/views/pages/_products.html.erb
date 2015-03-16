@@ -1,0 +1,27 @@
+<section id="work" class="portfolio-1">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2>Handcrafted Goods</h2>
+      <hr class="primary">
+      <ul class="list-inline hidden-xs" id="filters">
+        <li>
+        <button data-filter="*" type="button" class="btn btn-primary btn-square btn-raised">All</button>
+        </li>
+        <li>
+        <button data-filter=".web" type="button" class="btn btn-primary btn-square btn-raised">Mugs</button>
+        </li>
+        <li>
+        <button data-filter=".graphic" type="button" class="btn btn-primary btn-square btn-raised">Candles</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row" data-scrollreveal="enter bottom over 1.5s">
+    <div class="isotope">
+      <%= render partial: "product" %>
+    </div>
+  </div>
+</div>
+</section>
