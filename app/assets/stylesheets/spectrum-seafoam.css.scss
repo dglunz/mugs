@@ -1,8 +1,8 @@
-/*!
- * Spectrum v1.2.0 (http://themes.startbootstrap.com/spectrum-v1.2.0)
- * Copyright 2013-2015 Start Bootstrap Themes
- * To use this theme you must have a license purchased at WrapBootstrap (https://wrapbootstrap.com)
- */
+@font-face {                                                                         
+  font-family: 'MoonFlower';  
+  src: font-url('MoonFlower.ttf') format('truetype');
+ }
+
 body {
   height: 100%;
   color: #3e444d;
@@ -121,13 +121,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "MoonFlower", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1 {
-  font-size: 40px;
+  font-size: 60px;
 }
 h2 {
-  font-size: 36px;
+  font-size: 56px;
 }
 p {
   margin: 0 0 20px;
@@ -157,13 +157,13 @@ hr.dark {
   border-bottom: none;
 }
 hr.primary {
-  border-top: 6px solid #afd0ba;
+  border-top: 1px solid #afd0ba;
 }
 hr.light {
-  border-top: 6px solid #f4f5f7;
+  border-top: 1px solid #f4f5f7;
 }
 hr.dark {
-  border-top: 6px solid #3e444d;
+  border-top: 1px solid #3e444d;
 }
 hr.primary-small,
 hr.light-small,
@@ -234,8 +234,8 @@ a.light-text:focus {
 }
 .navbar {
   text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: "MoonFlower", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
 }
 .navbar-dark,
 .navbar-light {
@@ -445,7 +445,7 @@ a.light-text:focus {
 .intro-slider .brand-heading,
 .intro-slider-half .brand-heading,
 .intro-video .brand-heading {
-  font-size: 30px;
+  font-size: 50px;
   margin: 0;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
@@ -498,7 +498,7 @@ a.light-text:focus {
     display: block;
     width: 100%;
     background-color: black;
-    background-image: url('../img/diagonal-noise.png');
+    background-image: url('');
     opacity: 0.3;
     position: absolute;
     top: 0;
@@ -520,7 +520,7 @@ a.light-text:focus {
   .intro-video .brand-heading,
   .intro-img-half .brand-heading,
   .intro-slider-half .brand-heading {
-    font-size: 70px;
+    font-size: 170px;
   }
 }
 .intro-img,
@@ -573,7 +573,7 @@ a.light-text:focus {
 @media (min-width: 768px) {
   .intro-img .intro-body,
   .intro-video .intro-body {
-    top: 30%;
+    top: 20%;
   }
   .intro-img-half .intro-body {
     top: 15%;
